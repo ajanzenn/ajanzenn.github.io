@@ -1,0 +1,153 @@
+html, body {
+    margin: 0;
+    height: 100%; 
+    overflow: hidden; 
+    background: rgb(76,161,175);
+    background: linear-gradient(90deg, rgba(76,161,175,1) 0%, rgba(196,224,229,1) 100%);
+}
+
+.anx{
+    background: rgb(76,161,175);
+    background: linear-gradient(180deg, rgba(76,161,175,1) 0%, rgba(196,224,229,1) 100%);
+}
+
+.str {
+    background: rgb(76,161,175);
+    background: linear-gradient(270deg, rgba(76,161,175,1) 0%, rgba(196,224,229,1) 100%);
+}
+
+.sad {
+    background: rgb(76,161,175);
+    background: linear-gradient(0deg, rgba(76,161,175,1) 0%, rgba(196,224,229,1) 100%);
+}
+
+.button-color {
+    background-color: #92a4a4;
+    color: #474a4a;
+    border:solid 4px #3f3f3f;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+}
+
+h2{
+    color: #62696a; }
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 40%;
+}
+
+#landing, #part-2, #part-3 {
+    height: 100%;
+}
+
+#part-2{
+    background-image: url(images/urban-681.png);
+    background-size: cover;
+    width:100%;
+}
+
+#part-3{
+    background-image: url(images/urban-205.png);
+    background-size: cover;
+}
+
+.Absolute-Center {
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  text-align: center; 
+}  
+
+.btn-lg{
+    margin: 80px;
+    text-align: center;
+    min-height: 100px;
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+}
+
+.mediabar {
+    padding: 20px 0;
+    margin: 20px;
+}
+
+.media-button {
+    width: 120px;
+    margin: 0 20px;
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+#audioplayer{
+    display: flex;
+    padding-right: 20px;
+    margin-right: 40px;
+    background-color: #716e6e;
+    border:solid 6px #3f3f3f;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+
+
+}
+
+.play{
+    margin-right: 20px;
+}
+
+#volume_control {
+    margin: 0 auto;
+    padding-top: 12px;
+}
+
+.paint{
+    text-align: center;
+    border-style: none;
+    width: 100%;
+    height: 80%;
+}
+
+.game {
+
+    width: 100%;
+
+    transform: scale(150%);
+    height: 100%;
+}
+
+.jbutton{
+    transform: scale(75%);
+
+}
+
+#journal {
+    height: 100%;
+}
+
+.happy {
+    margin-top: 20px;
+}
+
+.caro{
+    margin-top: 40px;
+}
+
+#caroselId{
+    
+    width: 80%;
+}

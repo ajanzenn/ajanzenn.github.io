@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trood</title>
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script defer src="scripts.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="main.css">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<body>
+    <div class="Absolute-Center mx-auto game">
+        <div class="">
+            <script class="" src="https://cdn.htmlgames.com/embed.js?game=FrogJumper&amp;bgcolor=white"></script>
+            <div class="d-flex justify-content-center">
+                <a class="btn button-color jbutton happy" role="button" href="#journal">Journaling</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="journal" class="container form-group">
+        <h1>What's on your mind?</h2>
+        <textarea class="form-control rounded-0" id="journalInput" rows="30"></textarea><br>
+        
+        <p id='error' style="color: red;"></p>
+        <div class="d-flex float-left">
+            <button class="btn btn-info button-color rounded-pill " onclick="saveFile()">Download</button>
+        </div>
+        <div class="d-flex float-right">
+            <a class="btn btn-info button-color rounded-pill happy" role="button" href="index.html#part-3">I'm happy now</a>
+        </div>
+    </div>
+
+</body>
+</html>
